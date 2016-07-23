@@ -1,0 +1,16 @@
+{
+  "name": "Make Facebook Chat Great Again",
+  "description": "Fix Facebook's chat headers that are now white and hard on the eyes to read.",
+  "version": "2.0",
+  "permissions": [
+    "activeTab", "https://www.facebook.com/"
+  ],
+  "background": {
+    "scripts": ["myScript.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Fix Facebook's chat headers that are now white and hard on the eyes to read."
+  },
+  "manifest_version": 2
+  }
